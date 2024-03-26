@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meown - A Blog for Cat Lovers</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <style>
+    body {
+      padding-top: 70px;
+      font-family: 'Arial', sans-serif;
+      background-color: #fdf6e4;
+      color: #333;
+    }
+
+    .navbar {
+      background-color: #ff4500;
+    }
+
+    .navbar-brand {
+      font-size: 1.5em;
+      color: #fff;
+    }
+
+    .nav-link {
+      color: #fff;
+    }
+
+    .nav-link:hover {
+      color: #ffd700;
+    }
+
+    .container {
+      max-width: 960px;
+      margin-bottom: 50px;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,.15);
+    }
+
+    h1, h2 {
+      color: #ff4500;
+    }
+
+    article {
+      margin-bottom: 30px;
+      padding: 20px;
+      border-left: 4px solid #ff4500;
+      background-color: #f9f9f9;
+    }
+
+    form {
+      background-color: #e9ecef;
+      padding: 20px;
+      border-radius: 8px;
+    }
+
+    .form-group label {
+      font-weight: bold;
+    }
+
+    .btn-primary {
+      background-color: #ff4500;
+      border-color: #ff4500;
+    }
+
+    .btn-primary:hover {
+      background-color: #e03e00;
+      border-color: #e03e00;
+    }
+
+    .btn-secondary {
+      background-color: #ccc;
+      border-color: #ccc;
+    }
+
+    .btn-secondary:hover {
+      background-color: #bbb;
+      border-color: #bbb;
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light fixed-top">
+  <a class="navbar-brand" href="#">Meown</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#blog">Blog <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contact-us">Contact Us</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div class="container">
+  <h1>Welcome to Meown!</h1>
+  <article id="blog">
+    <h2>Blog</h2>
+    <h3>Do cats know their name?</h3>
+  <p>Cats are known for their independent spirit, but they do recognize their names. Studies show that while they can hear you calling, the response may vary depending on their mood!</p>
+  <h3>Essential tips to raise healthy pets</h3>
+  <p>Raising a happy pet involves regular vet check-ups, a balanced diet, daily playtime, and lots of love. Remember, a structured routine helps keep your feline friend content.</p>
+  <h3>Why does my cat attack me?</h3>
+  <p>Those sudden attacks on your ankles are not personal; it's just your cat's natural hunting instinct kicking in. Engage in regular play with toys to help them release this energy.</p>
+  <h3>How to throw a birthday party for your cat</h3>
+  <p>A cat birthday party should be a calm and comfortable affair. Consider some new toys and a special treat meal. And don't forget a photo session to capture the memories!</p>
+</article>
+
+  <article id="contact-us">
+    <h2>Contact Us</h2>
+    <form>
+      <div class="form-group">
+        <label for="email">Email address:</label>
+        <input type="email" class="form-control" id="email" required>
+      </div>
+      <div class="form-group">
+        <label for="address">Mailing address:</label>
+        <input type="text" class="form-control" id="address" required>
+      </div>
+      <div class="form-group">
+        <label for="phone">Phone number:</label>
+        <input type="tel" class="form-control" id="phone" required>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+      <button type="
